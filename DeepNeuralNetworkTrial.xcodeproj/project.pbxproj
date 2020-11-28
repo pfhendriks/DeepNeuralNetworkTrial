@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BD9D807B2572A8D50014C564 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D807A2572A8D50014C564 /* main.swift */; };
+		BD9D80832572A9730014C564 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D80822572A9730014C564 /* Matrix.swift */; };
+		BD9D80862572A9840014C564 /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D80852572A9840014C564 /* Activation.swift */; };
+		BD9D80892572A9B40014C564 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D80882572A9B40014C564 /* Layer.swift */; };
+		BD9D808C2572A9BE0014C564 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D808B2572A9BE0014C564 /* NeuralNetwork.swift */; };
+		BD9D808F2572AA010014C564 /* InputDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9D808E2572AA010014C564 /* InputDataSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		BD9D80772572A8D50014C564 /* DeepNeuralNetworkTrial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DeepNeuralNetworkTrial; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9D807A2572A8D50014C564 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BD9D80822572A9730014C564 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		BD9D80852572A9840014C564 /* Activation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		BD9D80882572A9B40014C564 /* Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		BD9D808B2572A9BE0014C564 /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
+		BD9D808E2572AA010014C564 /* InputDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				BD9D807A2572A8D50014C564 /* main.swift */,
+				BD9D80822572A9730014C564 /* Matrix.swift */,
+				BD9D80852572A9840014C564 /* Activation.swift */,
+				BD9D80882572A9B40014C564 /* Layer.swift */,
+				BD9D808B2572A9BE0014C564 /* NeuralNetwork.swift */,
+				BD9D808E2572AA010014C564 /* InputDataSet.swift */,
 			);
 			path = DeepNeuralNetworkTrial;
 			sourceTree = "<group>";
@@ -119,7 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9D808C2572A9BE0014C564 /* NeuralNetwork.swift in Sources */,
+				BD9D80832572A9730014C564 /* Matrix.swift in Sources */,
+				BD9D80862572A9840014C564 /* Activation.swift in Sources */,
+				BD9D808F2572AA010014C564 /* InputDataSet.swift in Sources */,
 				BD9D807B2572A8D50014C564 /* main.swift in Sources */,
+				BD9D80892572A9B40014C564 /* Layer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
